@@ -3,17 +3,13 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context
         https://www.springframework.org/schema/context/spring-context.xsd"
-                xmlns:context="http://www.springframework.org/schema/context"
-                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                xmlns="http://www.springframework.org/schema/beans">
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans">
 
 
-    <bean id="ru.geekbrains.spring1.JavaCodeCreator" class="ru.geekbrains.spring1.JavaCodeCreator">
+        <bean id="javaCodeCreator" class="ru.geekbrains.spring1.JavaCodeCreator">
 
-    </bean>
-
-    <bean id="ru.geekbrains.spring1.GenerateNames" class="ru.geekbrains.spring1.GenerateNames">
-
-    </bean>
+        </bean>
 
 </beans>

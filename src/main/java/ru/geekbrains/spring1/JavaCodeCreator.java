@@ -1,8 +1,8 @@
 package ru.geekbrains.spring1;
 
-public class JavaCodeCreator implements CodeCreator {
+public class JavaCodeCreator implements  CodeCreator{
     @Override
     public String javaCodeCreator() {
-        return "public class Cat{\n     \n}";
+        return "public class Cat {\n     \n}";
     }
 }
