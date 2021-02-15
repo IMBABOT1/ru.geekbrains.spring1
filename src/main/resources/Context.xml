@@ -6,4 +6,10 @@
                 xmlns:context="http://www.springframework.org/schema/context"
                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                 xmlns="http://www.springframework.org/schema/beans">
+
+
+    <bean id="ru.geekbrains.spring1.JavaCodeCreator" class="ru.geekbrains.spring1.JavaCodeCreator">
+
+    </bean>
+
 </beans>
