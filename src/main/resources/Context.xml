@@ -9,7 +9,9 @@
 
 
         <bean id="javaCodeCreator" class="ru.geekbrains.spring1.JavaCodeCreator">
-
+                <property name="generateNames">
+                     <ref bean="createAnimalNames"/>
+                </property>
         </bean>
 
 
