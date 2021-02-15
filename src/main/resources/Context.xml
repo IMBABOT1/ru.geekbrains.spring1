@@ -13,9 +13,10 @@
                      <ref bean="createAnimalNames"/>
                 </property>
         </bean>
-
-
         <bean id="createAnimalNames" class="ru.geekbrains.spring1.AnimalNames">
+        </bean>
+
+        <bean id="setField" class="ru.geekbrains.spring1.SimpleBean" scope="prototype">
 
         </bean>
 
