@@ -8,6 +8,8 @@
        xmlns="http://www.springframework.org/schema/beans">
 
 
+        <context:component-scan base-package="ru.geekbrains.spring1"/>
+
         <bean id="javaCodeCreator" class="ru.geekbrains.spring1.JavaCodeCreator">
                 <property name="generateNames">
                      <ref bean="createAnimalNames"/>
